@@ -1,5 +1,24 @@
-# Vue 3 + Vite
+# Visualize Data with a Heat Map
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este proyecto es una visualización interactiva de un mapa de calor (Heat Map) que muestra la variación mensual de la temperatura global desde 1753 hasta 2015.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Tecnologías
+
+- Vue 3 (Composition API)
+- D3.js para la visualización de datos
+- JSON externo con datos históricos de temperatura
+
+## Características
+
+- Mapa de calor que representa la variación de temperatura por año y mes.
+- Ejes X e Y bien definidos (años y meses).
+- Tooltip interactivo que muestra detalles al pasar el cursor sobre cada celda.
+- Leyenda de colores para interpretar las variaciones de temperatura.
+- Respuesta visual al pasar el cursor (borde negro alrededor de la celda).
+
+## Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/abraham96ce/Visualize-Data-with-a-Heat-Map.git
