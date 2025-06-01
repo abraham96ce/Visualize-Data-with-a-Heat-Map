@@ -1,0 +1,65 @@
+/* Estilo general */
+#title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+#description {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+/* Centrar el SVG y dar espacio */
+svg {
+  display: block;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Tooltip */
+#tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #bbb;
+  padding: 8px 12px;
+  border-radius: 4px;
+  pointer-events: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.85rem;
+  color: #222;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0; /* Por defecto oculto */
+  z-index: 10;
+}
+
+/* Ejes */
+#x-axis path, #x-axis line,
+#y-axis path, #y-axis line {
+  stroke: #666;
+}
+
+#x-axis text, #y-axis text {
+  font-size: 0.85rem;
+  fill: #444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Leyenda */
+#legend rect {
+  stroke: #ccc;
+  stroke-width: 0.5px;
+}
+
+/* Opcional: puntero para las celdas */
+rect.cell {
+  cursor: pointer;
+}
